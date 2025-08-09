@@ -12,6 +12,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { FiLogIn } from "react-icons/fi";
 import { useState } from "react";
 import axios from "axios";
+import apiURL from "../../utils";
 // import apiURL from "../../utils";
 
 const Login = () => {
@@ -26,7 +27,7 @@ const Login = () => {
     e.preventDefault();
     setLoading(true);
     try {
-      const { data } = await axios.post(`http://localhost:5000/api/users/login`, {
+      const { data } = await axios.post(`${apiURL}/api/users/login`, {
         email,
         password,
       });
