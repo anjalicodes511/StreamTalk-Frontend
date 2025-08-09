@@ -11,7 +11,6 @@ This is the **frontend** for **StreamTalk**, a real-time chat application built 
 - Modern UI built with **React** and **Chakra UI**
 - Real-time chat experience using **Socket.IO**
 - User authentication and authorization
-- Group and private messaging
 - Responsive design for all devices
 - Integrated with backend REST API
 
