@@ -1,8 +1,33 @@
-# React + Vite
+# StreamTalk Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the **frontend** for **StreamTalk**, a real-time chat application built using the MERN stack (MongoDB, Express, React, Node.js) and Socket.IO for real-time messaging.
 
-Currently, two official plugins are available:
+## 🌐 Live Deployment
+- **Frontend:** [https://streamtalk-frontend.onrender.com](https://streamtalk-frontend.onrender.com)  
+- **Backend:** [https://streamtalk-backend.onrender.com](https://streamtalk-backend.onrender.com)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## 🚀 Features
+- Modern UI built with **React** and **Chakra UI**
+- Real-time chat experience using **Socket.IO**
+- User authentication and authorization
+- Group and private messaging
+- Responsive design for all devices
+- Integrated with backend REST API
+
+## 🛠 Tech Stack
+- **React** – Frontend framework
+- **Chakra UI** – UI component library
+- **React Router** – Client-side routing
+- **Axios** – HTTP requests
+- **Socket.IO Client** – Real-time communication
+- **Vite** – Fast build tool
+- **Framer Motion** – Animations
+
+## 🌐 Live Deployment
+- **Frontend:** [https://streamtalk-frontend.onrender.com](https://streamtalk-frontend.onrender.com)  
+- **Backend:** [https://streamtalk-backend.onrender.com](https://streamtalk-backend.onrender.com)
+
+
+# Run the development server
+npm run dev
